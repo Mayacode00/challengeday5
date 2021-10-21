@@ -68,5 +68,66 @@ li:hover{
     color: #0f0e0c;
     transition: all .6s ease-in-out;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
+  header{
+    margin: 0 50px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .note{
+    font-size: 15px;
+  }
+  li{
+    font-size: 10px;
+    margin: 15px;
+  }
+  .img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .fun-facts{
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 800px){
+  .img{
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 300px){
+  li{
+    font-size: 8px;
+  }
+  .note{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+
+    margin-left: 10px;
+  }
+  p{
+    font-size: 10px;
+  }
+  h2{
+    font-size: 15px;
+  }
+  article{
+    padding: 5px;
+  }
+  .fun-facts{
+    margin: 10px;
+  }
 }
